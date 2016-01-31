@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <MetaDataObject name="Configuration">
+        <Container uid="9cd510cd-abfc-11d4-9434-004095e12fc7">
+            <item value = "ObjectId" type="string" path="0.0.0.0.0.1"/>
+            <item value = "Name" type="string" path="0.0.0.0.1"/>
+            <item value = "Synonym" type="ml_string" path="0.0.0.0.2"/>
+            <item value = "Comment" type="string" path="0.0.0.0.3"/>
+            <item value = "NamePrefix" type="string" path=""/>
+            <item value = "DefaultRunMode" type="enum" path="0.0.20">
+                <value key="0">OrdinaryApplication</value>
+                <value key="1">ManagedApplication</value>
+            </item>
+            <item value = "UsePurposes" type="string" path=""/>
+            <item value = "ScriptVariant" type="enum" path="0.0.2">
+                <value key="0">English</value>
+                <value key="1">Russian</value>
+            </item>
+            <item value = "DefaultRoles" type="string" path=""/>
+            <item value = "Vendor" type="string" path="0.0.13"/>
+            <item value = "Version" type="string" path="0.0.14"/>
+            <item value = "UpdateCatalogAddress" type="string" path="0.0.15"/>
+            <item value = "IncludeHelpInContents" type="bool" path="0.0.12"/>
+            <item value = "UseManagedFormInOrdinaryApplication" type="bool" path="0.0.27"/>
+            <item value = "UseOrdinaryFormInManagedApplication" type="bool" path="0.0.28"/>
+            <item value = "AdditionalFullTextSearchDictionaries" type="string" path=""/>
+            <item value = "CommonSettingsStorage" type="string" path=""/>
+            <item value = "ReportsUserSettingsStorage" type="string" path=""/>
+            <item value = "ReportsVariantsStorage" type="string" path=""/>
+            <item value = "FormDataSettingsStorage" type="string" path=""/>
+            <item value = "DynamicListsUserSettingsStorage" type="string" path=""/>
+            <item value = "Content" type="string" path=""/>
+            <item value = "DefaultReportForm" type="string" path=""/>
+            <item value = "DefaultReportVariantForm" type="string" path=""/>
+            <item value = "DefaultReportSettingsForm" type="string" path=""/>
+            <item value = "DefaultDynamicListSettingsForm" type="string" path=""/>
+            <item value = "DefaultSearchForm" type="string" path=""/>
+            <item value = "RequiredMobileApplicationPermissions" type="string" path=""/>
+            <item value = "DefaultInterface" type="string" path=""/>
+            <item value = "DefaultStyle" type="string" path=""/>
+            <item value = "DefaultLanguage" type="string" path=""/>
+            <item value = "BriefInformation" type="ml_string" path="0.0.4"/>
+            <item value = "DetailedInformation" type="ml_string" path="0.0.3"/>
+            <item value = "Copyright" type="ml_string" path="0.0.5"/>
+            <item value = "VendorInformationAddress" type="ml_string" path="0.0.6"/>
+            <item value = "ConfigurationInformationAddress" type="ml_string" path="0.0.7"/>
+            <item value = "DataLockControlMode" type="enum" path="0.0.16">
+                <value key="0">Automatic</value>
+                <value key="1">Managed</value>
+                <value key="2">AutomaticAndManaged</value>
+            </item>
+            <item value = "ObjectAutonumerationMode" type="enum" path="0.0.18">
+                <value key="0">AutoFree</value>
+                <value key="1">NotAutoFree</value>
+            </item>
+            <item value = "ModalityUseMode" type="enum" path="0.0.35">
+                <value key="0">Use</value>
+                <value key="1">UseWithWarnings</value>
+                <value key="2">DontUse</value>
+            </item>
+            <item value = "SynchronousExtensionAndAddInCallUseMode" type="enum" path="0.0.40">
+                <value key="0">Use</value>
+                <value key="1">UseWithWarnings</value>
+                <value key="2">DontUse</value>
+            </item>
+            <item value = "InterfaceCompatibilityMode" type="string" path=""/>
+            <item value = "CompatibilityMode" type="string" path=""/>
+            <item value = "DefaultConstantsForm" type="string" path=""/>
+        </Container>
+    </MetaDataObject>
+</root>
